@@ -1,40 +1,7 @@
 /* only exports */
 
-export declare enum AssetGroups_E {
-    iis = "iis",
-    currency = "currency",
-    crypto = "crypto",
-    all = "all",
-}
 
-export declare enum CryptoCurrencies_E {
-    BTC = "BTC",
-}
-
-export declare enum Currencies_E {
-    USD = "USD",
-    EUR = "EUR",
-    RUB = "RUB",
-}
-
-export declare enum RoleTypes_E {
-    ADMIN = "admin",
-    USER = "user",
-}
-
-export declare enum Shares_E {
-    MTS = "MTS",
-}
-
-export declare interface AssetSchema {
-    _id: string;
-    name: string;
-}
-
-export declare interface AssetGroup_I {
-    _id: string;
-    name: AssetGroups_E;
-}
+import {AssetGroups_E, Currencies_E} from "./src/enums";
 
 export declare type ValuteCBR_T = {
     [key in Currencies_E]: {

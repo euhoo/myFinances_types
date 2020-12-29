@@ -2,15 +2,22 @@
   "name": "myfinances_types",
   "version": "0.0.3",
   "description": "interfaces library",
-  "main": "",
+  "main": "dist/index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git"
   },
   "files": [
     "index.d.ts",
-    "src"
+    "src",
+    "dist"
   ],
   "author": "Evgeniy Kvach",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
 }
