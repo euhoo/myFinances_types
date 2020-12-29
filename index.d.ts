@@ -1,7 +1,7 @@
 /* only exports */
 
 
-import {AssetGroups_E, Currencies_E} from "./src/enums";
+import {AssetGroups_E, Currencies_E} from "./enums";
 
 export declare type ValuteCBR_T = {
     [key in Currencies_E]: {

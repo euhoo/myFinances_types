@@ -1,4 +1,4 @@
-export enum AssetGroups_E {
+export const enum AssetGroups_E {
   iis = "iis",
   currency = "currency",
   crypto = "crypto",

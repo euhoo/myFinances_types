@@ -12,7 +12,8 @@
   },
   "files": [
     "index.d.ts",
-    "src"
+    "src",
+    "enums"
   ],
   "author": "Evgeniy Kvach",
   "license": "ISC",
