@@ -11,7 +11,7 @@ export interface OperationSchema_I {
   date: string;
 }
 
-export interface Operation {
+export interface Operation_I {
   _id: string;
   date: string;
   assetCellName: string;
