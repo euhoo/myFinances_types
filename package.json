@@ -4,9 +4,6 @@
   "description": "interfaces library",
   "main": "",
   "types": "index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-  },
   "repository": {
     "type": "git"
   },
@@ -15,8 +12,5 @@
     "src"
   ],
   "author": "Evgeniy Kvach",
-  "license": "ISC",
-  "devDependencies": {
-    "openapi-typescript-codegen": "^0.7.0"
-  }
+  "license": "ISC"
 }
