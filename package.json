@@ -1,8 +1,8 @@
 {
   "name": "myfinances_types",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "interfaces library",
-  "main": "",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -10,7 +10,7 @@
     "type": "git"
   },
   "files": [
-    "index.d.ts",
+    "index.ts",
     "src",
     "enums"
   ],
