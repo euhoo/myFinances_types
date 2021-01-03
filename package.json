@@ -2,7 +2,8 @@
   "name": "myfinances_types",
   "version": "0.0.9",
   "description": "interfaces library",
-  "main": "index.js",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -10,7 +11,7 @@
     "type": "git"
   },
   "files": [
-    "index.js",
+    "index.d.ts",
     "dist"
   ],
   "author": "Evgeniy Kvach",

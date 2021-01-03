@@ -17,4 +17,4 @@ __exportStar(require("./User"), exports);
 __exportStar(require("./Operation"), exports);
 __exportStar(require("./AssetGroup"), exports);
 __exportStar(require("./cryptoCurrencies_T"), exports);
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=index.d.ts.map
