@@ -1,4 +1,4 @@
-import { Currencies_E } from "../../enums/Currencies_E";
+import { Currencies_E } from "../enums/Currencies_E";
 
 export type ValuteCBR_T = {
   [key in Currencies_E]: {
