@@ -20,9 +20,6 @@
       ]
     }
   },
-  "files": [
-    "index.js"
-  ],
   "include": [
     "./src/"
   ]
